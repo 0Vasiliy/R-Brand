@@ -1,0 +1,105 @@
+.popup{
+    width: 600px;
+    height: 899.716796875px;
+    border: 1px solid teal; 
+    margin: 0 auto;  
+}
+.form{
+    margin-top: 25%;
+    margin-left:  auto;
+    margin-right: auto;
+    width: 489.84765625px;
+    height: 608.650390625px;
+    &_title{
+        width: 489px;
+        height: 104px;
+        h1{
+            height:38px;         
+            font-family: Montserrat;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 38px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #212121;
+
+        }
+       h3{
+        width: 467.4742126464844px;
+        height: 52px;
+        color: #212121;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+       }
+       
+    }
+    &_name, &_phone, &_bisnes,&_textarea{
+        margin-top: 20px;
+        position: relative;
+        width: 489.84765625px;
+        height: 75.8957748413086px;
+        opacity: 0.4000000059604645;
+        color: black;
+        &:hover{
+            opacity: 1;        
+        }
+        input,select{
+            width: 489.84765625px;
+            height: 56.290306091308594px;         
+            border-radius: 6px;
+            border: 1px solid black ;
+            &:hover{
+                border-radius: 6px;
+                border: 1px solid black ; 
+            }          
+        }
+        input,select[type="text"], input[type="password"], textarea, select {
+            outline: none;
+        }
+        label{
+            display: block;
+            position: absolute;
+            top: -9px;
+            left: 12px;
+            height: 18px;
+            padding: 0 8px;
+            background-color: #fff;
+            font-size: 12px;
+            margin-bottom: 0;
+        }
+        input,select[placeholder]{
+            padding-left: 18px;
+        }
+        textarea{
+            width: 489.84765625px;
+            height: 131.688720703125px;  
+            border-radius: 6px;
+            border: 1px solid black ;
+            resize: none;
+            &:hover{
+                border-radius: 6px;
+                border: 1px solid black ; 
+            }   
+        }
+        
+    }
+}
+.popup_close{
+    position: absolute;
+  top: -5rem;
+  right: -1.5rem;
+  font-size: 5rem;
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  background: transparent;
+  color: #ffffff;
+  border: none;
+}
+
+
