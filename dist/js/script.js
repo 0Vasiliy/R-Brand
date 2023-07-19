@@ -57,25 +57,6 @@ const modals = () => {
         });
     }
     
-    // Функция всплытия модального окна через промежуток времени
-
-    // function showModalByTime(selector, time) {
-    //     setTimeout(function() {
-    //         let display;
-
-    //         document.querySelectorAll('[data-modal]').forEach(item => {
-    //             if (getComputedStyle(item).display !== 'none') {
-    //                 display = "block";
-    //             }
-    //         });
-
-    //         if (!display) {
-    //             document.querySelector(selector).style.display = 'block';
-    //             document.body.style.overflow = "hidden";
-    //             document.body.style.marginRight = '${scroll}px';
-    //         }
-    //     }, time);
-    // }
     // Функция подсчитывает расстояние в px при открытиии модального окна и появления скролла
     function calcScroll(){
         let div =document.createElement('div');
@@ -104,11 +85,11 @@ const modals = () => {
     }
 
     // Вызов функций
-    bindModal('.button', '.popup', '.popup .popup_close');
+    bindModal('.btns', '.popup', '.popup .popup_close');
    
-   
+    
 };
 modals();
-export default modals;
+
 
 
