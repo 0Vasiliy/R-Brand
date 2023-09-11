@@ -51,6 +51,9 @@ showModalByTime('.modal', 3000);
 
 
 // Validation
+
+(function () {
+    'use strict'
 let = forms.document.querySelectorAll('.needs-validation');
 Array.prototype.slice.call(forms).forEach(function(form)
 {
@@ -64,4 +67,4 @@ Array.prototype.slice.call(forms).forEach(function(form)
         form.classList.add("was-validated")
     },false );  
   } );
-
+})();
