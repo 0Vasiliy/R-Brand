@@ -29,6 +29,10 @@
       transform: translateX(0);
     }
   }
+  .modal_popap{
+    max-width: 1320px;
+    width: 75%;
+  }
   //Modal
 .modal-dialog{
     max-width: 600px;
@@ -88,3 +92,16 @@
 .modal-footer{
   max-width: 489.84765625px;
 }
+@media(max-width: 430px){
+.modal-footer{
+  margin-top: 20px;
+  flex-wrap: wrap !important;
+  flex-direction: column;
+}
+}
+@media(max-width: 280px){
+  .btns{
+    max-width:150px;
+    width: 100%;
+  }
+  }
